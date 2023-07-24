@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Me</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+    <script src="https://kit.fontawesome.com/9fcf906e35.js" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+	<nav class="brown darken-1">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo"><i class="material-icons white-text">local_post_office</i>Portfolio</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="portfolio.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACTS</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="portfolio.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="contact.html">CONTACTS</a></li>
+  </ul>
+
+  <main>
+  	<div class="row">
+  		<div class="col s12 m6 l6">
+  			<img src="img/c3.jpg">
+  		</div>
+  		<div class="col s12 m6 l6">
+  			<h1 class="set">Contact Us</h1>
+  			<hr><br>
+  			<form>
+  				<label class="fm">Full Name</label>
+  				<input type="text" class="ip" name="">
+  				<label class="fm">E-mail</label>
+  				<input type="email" name=""><br><br>
+  				<button>Submit</button>
+  			</form>
+  			<br><br>
+ 
+            <i class="fa fa-twitter" style="font-size:20px;"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-facebook" style="font-size:20px;"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa fa-instagram" style="font-size:20px;"></i>
+            <br><br>
+            <i class="fa fa-envelope" style="font-size:20px;"></i>&nbsp;&nbsp;
+            <span>ramneetkaur0212@gmail.com</span>
+
+        </div>
+  	</div>
+  </main>
+
+  <script type="text/javascript">
+  	 $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+</script>
+
+</body>
+</html>

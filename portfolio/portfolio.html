@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="p.css">
+</head>
+<body>
+
+	 <nav class="black">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo"><i class="material-icons white-text">local_post_office</i>Portfolio</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="portfolio.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACTS</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <a href="portfolio.html"><i class="material-icons close">clear</i></a>
+    <li><a href="portfolio.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="contact.html">CONTACTS</a></li>
+  </ul>
+
+  <main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <section class="firstsec">
+      <div class="col s12 m6 l6 lsec">
+        Hi, My name is
+        <span class="color">Ramneet</span>
+        <div>and I am a</div>
+        <span id="element"></span>
+      </div>
+      <div class="col s12 m6 l6 rsec">
+        <img class="img" src="img/d.png">
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="secondsec">
+      <h3 class="c">These are some of my works</h3>
+      <br><br>
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <div class="card">
+        <div class="card-image">
+          <img class="i" src="img/tribute.jpg">
+        </div>
+        <div class="card-content">
+          <p class="works">Tribute Page</p>
+        </div>
+        <div class="card-action">
+          <a href="tribute.html">View</a>
+        </div>
+      </div>
+        </div>
+
+        <div class="col s12 m4 l4">
+          <div class="card">
+        <div class="card-image">
+          <img src="img/suevey.jpg">
+        </div>
+        <div class="card-content">
+          <p class="works">Survey Form</p>
+        </div>
+        <div class="card-action">
+          <a href="survey.html">View</a>
+        </div>
+      </div>
+        </div>
+
+        <div class="col s12 m4 l4">
+          <div class="card">
+        <div class="card-image">
+          <img class="i" src="img/login.jpg">
+        </div>
+        <div class="card-content">
+          <p class="works">LOG In Form</p>
+        </div>
+        <div class="card-action">
+          <a href="login.html">View</a>
+        </div>
+      </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m4 l4">
+          <div class="card">
+        <div class="card-image">
+          <img src="img/calc.jpeg">
+        </div>
+        <div class="card-content">
+          <p class="works">Calculator using Javascript</p>
+        </div>
+        <div class="card-action">
+          <a href="calculator.html">View</a>
+        </div>
+      </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <br><br>
+
+   <footer class="page-footer foot">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text"><i class="material-icons white-text">local_post_office</i>
+                  Portfolio</h5>
+                <p class="grey-text text-lighten-4">The nature of a portfolio is that it's always a 
+                  <span class="color">work in progress.</span></p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text"></h5>
+                <ul>
+                  <li><a href="p.html"><i class="material-icons f-icon">home</i></a></li>
+                  <li><a href="contact.html"><i class="material-icons f-icon">phone</i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container c">
+            www.portfolio.com | All rights are reserved
+            <!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+            </div>
+          </div>
+        </footer>
+
+  <script type="text/javascript">
+  	 $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+     var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+
+</body>
+</html>

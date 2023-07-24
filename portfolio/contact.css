@@ -1,0 +1,52 @@
+body{
+	background-color: rgb(242, 231, 199);
+	color: black;
+	font-family: 'Poppins',sans-serif;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	width: 60%;
+	height: 70%;
+	margin: 120px 0 0 150px;
+}
+
+.set{
+	margin: 100px;
+}
+
+hr{
+	background-color: black;
+	height: 2px;
+	width: 85%;
+	margin: -50px 0 0 0;
+}
+
+.fm{
+	color: black;
+	font-size: 20px;
+	padding: 20px 0 0 0;
+}
+
+button{
+	background-color: #4e342e;
+	border-radius: 5px;
+	color: white;
+	width: 80px;
+	height: 40px;
+	border: none;
+}
+
+button:hover{
+	background-color: #75633c;
+	cursor: pointer;
+}
+
+.ip{
+	color: black;
+	background-color: black;
+}
